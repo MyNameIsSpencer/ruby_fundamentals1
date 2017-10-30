@@ -32,3 +32,31 @@ end
 
 
 #Question 3
+
+maker_name = "Blek"
+
+puts "Enter your name..."
+
+user_name = gets.chomp
+
+#Question 4 Start
+
+if user_name.length > 10
+  puts "Hi #{user_name}"
+elsif user_name.length == 10
+  puts "Hey #{user_name}"
+else
+  puts "Hello #{user_name}"
+end
+
+#Question 4 End
+
+
+if user_name == maker_name
+  puts "I just noticed, we have the same name!"
+elsif
+  puts "Say, you should change your name to #{maker_name}"
+end
+
+
+#Question 5
