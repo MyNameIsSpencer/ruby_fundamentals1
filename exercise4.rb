@@ -60,3 +60,19 @@ end
 
 
 #Question 5
+
+secret_number = (1 + rand(9)).to_i
+
+puts "#{secret_number}"
+
+puts "Guess a number between 1 and 10"
+
+user_guess = gets.chomp.to_i
+
+if user_guess == secret_number
+  puts "You WON!"
+elsif user_guess == secret_number + 1 || user_guess == secret_number - 1
+  puts "So close"
+else
+  puts "Try again, loser"
+end
