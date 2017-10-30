@@ -12,5 +12,3 @@ user_age = gets.chomp
 
 
 puts "WOW! You only look #{user_age.to_i - 7} years old!!"
-
-# if portion
